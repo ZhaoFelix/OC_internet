@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC74121C1FCB19E1002FC1CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74121B1FCB19E1002FC1CD /* AppDelegate.m */; };
+		DC74121F1FCB19E1002FC1CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74121E1FCB19E1002FC1CD /* ViewController.m */; };
+		DC7412221FCB19E1002FC1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7412201FCB19E1002FC1CD /* Main.storyboard */; };
+		DC7412241FCB19E1002FC1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7412231FCB19E1002FC1CD /* Assets.xcassets */; };
+		DC7412271FCB19E1002FC1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7412251FCB19E1002FC1CD /* LaunchScreen.storyboard */; };
+		DC74122A1FCB19E1002FC1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7412291FCB19E1002FC1CD /* main.m */; };
+		DC7412341FCB2211002FC1CD /* GetWifiInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7412331FCB2211002FC1CD /* GetWifiInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC7412171FCB19E1002FC1CD /* GetWifinfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetWifinfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC74121A1FCB19E1002FC1CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC74121B1FCB19E1002FC1CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC74121D1FCB19E1002FC1CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC74121E1FCB19E1002FC1CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC7412211FCB19E1002FC1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC7412231FCB19E1002FC1CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC7412261FCB19E1002FC1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC7412281FCB19E1002FC1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7412291FCB19E1002FC1CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC7412321FCB2211002FC1CD /* GetWifiInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetWifiInfo.h; sourceTree = "<group>"; };
+		DC7412331FCB2211002FC1CD /* GetWifiInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetWifiInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7412141FCB19E1002FC1CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC74120E1FCB19E1002FC1CD = {
+			isa = PBXGroup;
+			children = (
+				DC7412191FCB19E1002FC1CD /* GetWifinfo */,
+				DC7412181FCB19E1002FC1CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7412181FCB19E1002FC1CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7412171FCB19E1002FC1CD /* GetWifinfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7412191FCB19E1002FC1CD /* GetWifinfo */ = {
+			isa = PBXGroup;
+			children = (
+				DC74121A1FCB19E1002FC1CD /* AppDelegate.h */,
+				DC74121B1FCB19E1002FC1CD /* AppDelegate.m */,
+				DC74121D1FCB19E1002FC1CD /* ViewController.h */,
+				DC74121E1FCB19E1002FC1CD /* ViewController.m */,
+				DC7412201FCB19E1002FC1CD /* Main.storyboard */,
+				DC7412231FCB19E1002FC1CD /* Assets.xcassets */,
+				DC7412251FCB19E1002FC1CD /* LaunchScreen.storyboard */,
+				DC7412281FCB19E1002FC1CD /* Info.plist */,
+				DC7412291FCB19E1002FC1CD /* main.m */,
+				DC7412321FCB2211002FC1CD /* GetWifiInfo.h */,
+				DC7412331FCB2211002FC1CD /* GetWifiInfo.m */,
+			);
+			path = GetWifinfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7412161FCB19E1002FC1CD /* GetWifinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC74122D1FCB19E1002FC1CD /* Build configuration list for PBXNativeTarget "GetWifinfo" */;
+			buildPhases = (
+				DC7412131FCB19E1002FC1CD /* Sources */,
+				DC7412141FCB19E1002FC1CD /* Frameworks */,
+				DC7412151FCB19E1002FC1CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetWifinfo;
+			productName = GetWifinfo;
+			productReference = DC7412171FCB19E1002FC1CD /* GetWifinfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC74120F1FCB19E1002FC1CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Felix;
+				TargetAttributes = {
+					DC7412161FCB19E1002FC1CD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC7412121FCB19E1002FC1CD /* Build configuration list for PBXProject "GetWifinfo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC74120E1FCB19E1002FC1CD;
+			productRefGroup = DC7412181FCB19E1002FC1CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7412161FCB19E1002FC1CD /* GetWifinfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7412151FCB19E1002FC1CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7412271FCB19E1002FC1CD /* LaunchScreen.storyboard in Resources */,
+				DC7412241FCB19E1002FC1CD /* Assets.xcassets in Resources */,
+				DC7412221FCB19E1002FC1CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC7412131FCB19E1002FC1CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC74121F1FCB19E1002FC1CD /* ViewController.m in Sources */,
+				DC74122A1FCB19E1002FC1CD /* main.m in Sources */,
+				DC74121C1FCB19E1002FC1CD /* AppDelegate.m in Sources */,
+				DC7412341FCB2211002FC1CD /* GetWifiInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC7412201FCB19E1002FC1CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7412211FCB19E1002FC1CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC7412251FCB19E1002FC1CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7412261FCB19E1002FC1CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC74122B1FCB19E1002FC1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC74122C1FCB19E1002FC1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC74122E1FCB19E1002FC1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XD3VS32DFD;
+				INFOPLIST_FILE = GetWifinfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sbs.cn.GetWifinfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC74122F1FCB19E1002FC1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XD3VS32DFD;
+				INFOPLIST_FILE = GetWifinfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sbs.cn.GetWifinfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC7412121FCB19E1002FC1CD /* Build configuration list for PBXProject "GetWifinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC74122B1FCB19E1002FC1CD /* Debug */,
+				DC74122C1FCB19E1002FC1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC74122D1FCB19E1002FC1CD /* Build configuration list for PBXNativeTarget "GetWifinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC74122E1FCB19E1002FC1CD /* Debug */,
+				DC74122F1FCB19E1002FC1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC74120F1FCB19E1002FC1CD /* Project object */;
+}
